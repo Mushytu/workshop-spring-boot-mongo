@@ -8,8 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 public class User implements Serializable {
-	
-	//private Set Post posts;
+	private static final long serialVersionUID = 1L;
 	
 	@Id
 	private String id;
